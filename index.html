@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+	<meta charset="utf-8" />
+	<title>SRI SAI KRISHNA TRADERS </title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="theme-color" content="#4302b2">
+
+	<link href="" rel="icon">
+	<link href="css/swiper.min.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/plugin.min.css" rel="stylesheet">
+	<link href="css/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&amp;family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap"
+		rel="stylesheet">
+
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">
+	<link href="css/darkmode.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet">
+	<style>
+		.slide-bg-image {
+			position: relative;
+			background-size: cover;
+			background-position: center;
+			height: 100vh;
+			/* Adjust height as needed */
+		}
+
+		.gradient-overlay {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+			/* Dark gradient overlay */
+			z-index: 1;
+			/* Make sure the gradient is on top of the background image */
+		}
+
+		.slide-inner .container {
+			position: relative;
+			z-index: 2;
+			/* Ensure content is on top of the gradient */
+		}
+
+		.text-white {
+			color: #ffffff;
+		}
+
+		.slide-title h3,
+		.slide-text p {
+			color: white;
+			z-index: 2;
+		}
+
+		.service-card-app .tec-icon img {
+			width: 100%;
+			height: 300px;
+			object-fit: cover;
+			border-radius: 10px;
+		}
+	</style>
+</head>
+
+<body>
+
+	<!--<div class="onloadpage" id="page_loader">
+		<div class="pre-content">
+			<div class="logo-pre"><img src="images/logo.png" alt="Logo" class="img-fluid" /></div>
+			<div class="pre-text- text-radius text-light text-animation bg-b">Niwax - Creative Agency & Portfolio HTML
+				Template Are 2 Seconds Away. Have Patience</div>
+		</div>
+	</div>-->
+
+
+	<header class="header-pr nav-bg-b main-header navfix fixed-top menu-white">
+		<div class="container-fluid m-pad">
+			<div class="menu-header">
+				<div class="dsk-logo"><a class="nav-brand" href="index.html">
+						<!-- <img src="images/logo/icms.png" alt="Logo" class="mega-white-logo" />
+						<img src="images/logo/icms.png" alt="Logo" class="mega-darks-logo" /> -->
+						<h4>SRI SAI KRISHNA TRADERS </h4>
+					</a>
+				</div>
+				<div class="custom-nav" role="navigation">
+					<ul class="nav-list">
+						<li>
+							<a href="index.html" class="menu-links">Home</a>
+
+						</li>
+						<li>
+							<a href="about-us.html" class="menu-links">About Us</a>
+						</li>
+
+						<li class="sbmenu rpdropdown">
+							<a href="#" class="menu-links">Products</a>
+							<div class="nx-dropdown menu-dorpdown">
+								<div class="sub-menu-section">
+									<div class="sub-menu-center-block">
+										<div class="sub-menu-column smfull">
+											<ul>
+												<li><a href="fresh.html">Fresh & Frozen Items</a> </li>
+												<li><a href="grocery.html">Groceries & Essentials</a>
+												</li>
+												<li><a href="snacks.html">Sweets & Snacks</a> </li>
+												<li><a href="special_item.html">Beverages & Special Items</a> </li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<a href="contact-us.html" class="menu-links">Contact Us</a>
+						</li>
+
+					</ul>
+
+					<ul class="nav-list right-end-btn">
+						<li class="hidemobile"><a data-bs-toggle="offcanvas" href="#offcanvasExample"
+								class="btn-round- btn-br bg-btn2"><i class="fas fa-phone-alt"></i></a></li>
+						<li class="hidemobile"><a href="contact-us.html" class="btn-br bg-btn3 btshad-b2 lnk">Request A
+								Quote <span class="circle"></span></a> </li>
+
+						<li class="hidedesktop"><a data-bs-toggle="offcanvas" href="#offcanvasExample"
+								class="btn-round- btn-br bg-btn2"><i class="fas fa-phone-alt"></i></a></li>
+						<li class="navm- hidedesktop"> <a class="toggle" href="#"><span></span></a></li>
+					</ul>
+				</div>
+			</div>
+
+			<nav id="main-nav">
+				<ul class="first-nav">
+					<li>
+						<a href="index.html">Home</a>
+
+					</li>
+					<li>
+						<a href="about-us.html">About Us</a>
+					</li>
+
+					<li>
+						<a href="#">Products</a>
+						<ul>
+							<li><a href="fresh.html">Fresh & Frozen Items</a> </li>
+							<li><a href="grocery.html">Groceries & Essentials</a>
+							</li>
+							<li><a href="snacks.html">Sweets & Snacks</a> </li>
+							<li><a href="special_item.html">Beverages & Special Items</a> </li>
+						</ul>
+					</li>
+					<li>
+						<a href="contact-us.html" class="menu-links">Contact Us</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+
+	<div class="niwaxofcanvas offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample">
+		<div class="offcanvas-body">
+			<div class="cbtn animation">
+				<div class="btnclose"> <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+						aria-label="Close"></button></div>
+			</div>
+
+			<div class="getintouchblock mt30">
+				<h4>Get In Touch</h4>
+
+				<div class="media mt15">
+					<div class="icondive"><img src="images/icons/call.svg" alt="icon"></div>
+					<div class="media-body getintouchinfo">
+						<a href="tel:+917845931174" target="_blank">+91 78459 31174</a>
+						<a href="tel:+919597782357" target="_blank">+91 95977 82357</a>
+						<span>Mon-Fri 9am - 6pm</span></a>
+					</div>
+				</div>
+				<div class="media mt15">
+					<div class="icondive"><img src="images/icons/whatsapp.svg" alt="icon"></div>
+					<div class="media-body getintouchinfo">
+						<a href="https://wa.me/+917845931174" target="_blank">+91 78459 31174</a>
+						<a href="https://wa.me/+919597782357" target="_blank">+91 95977 82357</a>
+						<span>Mon-Fri 9am - 6pm</span></a>
+					</div>
+				</div>
+				<div class="media mt15">
+					<div class="icondive"><img src="images/icons/mail.svg" alt="icon"></div>
+					<div class="media-body getintouchinfo">
+						<a href="mailto: ksundarigopi0273@gmail.com"> ksundarigopi0273@gmail.com
+							<span>Online Support</span></a>
+					</div>
+				</div>
+				<div class="media mt15">
+					<div class="icondive"><img src="images/icons/map.svg" alt="icon"></div>
+					<div class="media-body getintouchinfo">
+						<a href="#">SRI SAI KRISHNA TRADERS,<br>
+							No. 5/1245, Pillaiyar Kovil Thottam,<br>
+							Lakshmi Nagar,
+							Bhavani,<br>
+							Erode - 638301,
+							Tamil Nadu.<span>Visit Our
+								Office</span></a>
+					</div>
+				</div>
+			</div>
+			<div class="contact-data mt30">
+				<h4>Follow Us On:</h4>
+				<div class="social-media-linkz mt10">
+					<a href="" target="blank"><i class="fab fa-facebook"></i></a>
+					<a href="" target="blank"><i
+							class="fab fa-instagram"></i></a>
+					<a href="" target="blank"><i
+							class="fab fa-youtube"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<section class="hero-slider hero-style">
+		<div class="swiper-container">
+
+			<div class="swiper-wrapper">
+
+				<div class="swiper-slide">
+					<!-- <img src="" alt=""> -->
+					<div class="slide-inner slide-bg-image background-img" data-background="./img/traders/slider1.webp">
+						<div class="gradient-overlay"></div> <!-- Gradient overlay -->
+						<div class="container">
+							<div class="row">
+								<div class="col-md-6">
+									<div data-swiper-parallax="300" class="slide-title">
+										<h3 class="text-white">Fresh & Quality Produce</h3>
+									</div>
+									<div data-swiper-parallax="400" class="slide-text">
+										<h4 class="text-white">Experience the best farm-fresh fruits and vegetables.</p>
+									</div>
+
+									<div class="clearfix"></div>
+									<div data-swiper-parallax="500" class="slide-btns">
+										<a href="contact-us.html" class="btn-main bg-btn lnk">Enquiry Now <i
+												class="fas fa-chevron-right fa-icon"></i><span
+												class="circle"></span></a>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<!-- <img src="images/hero/mobile-app.png"> -->
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+
+				<div class="swiper-slide">
+					<div class="slide-inner slide-bg-image background-image"
+						data-background="./img/traders/slider4.jpg">
+						<div class="gradient-overlay"></div> <!-- Gradient overlay -->
+						<div class="container">
+							<div class="row">
+								<div class="col-md-6">
+									<div data-swiper-parallax="300" class="slide-title">
+										<h3 class="text-white">Authentic Sweets & Snacks</h3>
+									</div>
+									<div data-swiper-parallax="400" class="slide-text">
+										<h4 class="text-white">
+											Connecting Talent with Opportunity
+										</h4>
+										<p>Enjoy traditional flavors with our wide range of sweets and snacks.</p>
+									</div>
+
+									<div class="clearfix"></div>
+									<div data-swiper-parallax="500" class="slide-btns">
+										<a href="contact-us.html" class="btn-main bg-btn lnk">Enquiry Now <i
+												class="fas fa-chevron-right fa-icon"></i><span
+												class="circle"></span></a>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<!-- <img src="images/hero/web-development.png"> -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="swiper-slide">
+					<div class="slide-inner slide-bg-image background-img" data-background="./img/traders/slider3.jpg">
+						<div class="gradient-overlay"></div> <!-- Gradient overlay -->
+						<div class="container">
+							<div class="row">
+								<div class="col-md-6">
+									<div data-swiper-parallax="300" class="slide-title">
+										<h3 class="text-white">Seafood & Spices</h3>
+									</div>
+									<div data-swiper-parallax="400" class="slide-text">
+										<h4 class="text-white">Explore premium-quality seafood and exotic spices for
+											every dish.</p>
+									</div>
+
+									<div class="clearfix"></div>
+									<div data-swiper-parallax="500" class="slide-btns">
+										<a href="contact-us.html" class="btn-main bg-btn lnk">Enquiry Now <i
+												class="fas fa-chevron-right fa-icon"></i><span
+												class="circle"></span></a>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<!-- <img src="images/hero/digital-marketing.png"> -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="swiper-slide">
+					<div class="slide-inner slide-bg-image background-img" data-background="./img/traders/slider5.jpg">
+						<div class="gradient-overlay"></div> <!-- Gradient overlay -->
+						<div class="container">
+							<div class="row">
+								<div class="col-md-6">
+									<div data-swiper-parallax="300" class="slide-title">
+										<h3 class="text-white">Spices & Groceries – Pure & Fresh!</h3>
+									</div>
+									<div data-swiper-parallax="400" class="slide-text">
+										<h4 class="text-white">Stock your kitchen with premium spices, masalas, and
+											essential groceries.</p>
+									</div>
+
+									<div class="clearfix"></div>
+									<div data-swiper-parallax="500" class="slide-btns">
+										<a href="contact-us.html" class="btn-main bg-btn lnk">Enquiry Now <i
+												class="fas fa-chevron-right fa-icon"></i><span
+												class="circle"></span></a>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<!-- <img src="images/hero/digital-marketing.png"> -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+
+			<div class="swiper-pagination"></div>
+			<div class="swiper-button-next"></div>
+			<div class="swiper-button-prev"></div>
+
+		</div>
+	</section>
+
+
+	<section class="about-sec-app pad-tb pt60 dark-bg2">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="common-heading text-l">
+						<h2 class="mb30"><span class="text-second text-bold">SRI SAI KRISHNA TRADERS </span></h2>
+						<p class="text-justify">Welcome to SRI SAI KRISHNA TRADERS, your trusted source for high-quality
+							food products. We offer a wide range of fresh fruits, vegetables, spices, traditional rice,
+							groceries, sweets, and snacks. Our carefully sourced products ensure purity, freshness, and
+							rich flavors, catering to both retail and wholesale customers. </p>
+						<p class="mt10 text-justify">With strong partnerships with farmers and suppliers, we provide
+							premium-quality spices, seafood, ready-to-cook items, and daily essentials at competitive
+							prices. Our wholesale services help businesses get bulk supplies without compromising on
+							quality and freshness.</p>
+						<p class="mt10  text-justify">Customer satisfaction is our priority, and we are committed to
+							delivering the best food products with authenticity and excellence. Whether for personal use
+							or wholesale needs, SRI SAI KRISHNA TRADERS is your go-to destination for fresh, flavorful,
+							and high-quality food essentials.</p>
+					</div>
+
+
+
+				</div>
+				<div class="col-lg-6">
+					<div class="funfact">
+						<div class="row">
+
+							<div class="col-lg-6 col-md-6 col-sm-12 col-6">
+								<div class="funfct srcl2">
+									<img src="images/icons/startup.svg" alt="startup icon">
+									<span class="services-cuntr counter">6</span><span class="services-cuntr">+</span>
+									<p>Years Experience </p>
+								</div>
+							</div>
+							<div class="col-lg-6 col-md-6 col-sm-12 col-6">
+								<div class="funfct srcl3">
+									<img src="images/icons/team.svg" alt="team">
+									<span class="services-cuntr counter">50</span><span class="services-cuntr">+</span>
+									<p>Talented Squad Delivered </p>
+								</div>
+							</div>
+
+							<div class="col-lg-6 col-md-6 col-sm-12 col-6">
+								<div class="funfct srcl5">
+									<img src="images/icons/computers.svg" alt="projects">
+									<span class="services-cuntr counter">100</span><span class="services-cuntr">%</span>
+									<p>Orders Fulfilled</p>
+								</div>
+							</div>
+							<div class="col-lg-6 col-md-6 col-sm-12 col-6">
+								<div class="funfct srcl1">
+									<img src="images/icons/deal.svg" alt="Satisfaction">
+									<span class="services-cuntr counter">100</span><span class="services-cuntr">%</span>
+									<p>Customer Satisfaction</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="service-section-app  dark-bg2 pb-5">
+
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-6">
+					<div class="common-heading ptag">
+						<!-- <span>SOLUTIONS</span> -->
+						<h2>Customized Wholesale Supply Solutions</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row upset">
+				<div class="col-lg-4 col-md-6 mt30 wow fadeIn" data-wow-delay="0.2s">
+					<div class="service-card-app hoshd">
+						<h4>Reliable Wholesale Supply</h4>
+						<ul class="-service-list mt10">
+						</ul>
+						<div class="tec-icon mt30">
+							<img src="./img/traders/img1.jpg" alt="">
+						</div>
+						<p class="mt20 text-justify">Delivering fresh and high-quality food products to businesses and
+							bulk buyers.</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 mt30 wow fadeIn" data-wow-delay="0.5s">
+					<div class="service-card-app hoshd">
+						<h4>Authentic & Premium Products</h4>
+						<ul class="-service-list mt10">
+						</ul>
+						<div class="tec-icon mt30">
+							<ul class="servc-icon-sldr">
+								<img src="./img/traders/img2.jpeg" alt="">
+
+							</ul>
+						</div>
+						<p class="mt20 text-justify">Sourcing the finest groceries, spices, seafood, and traditional
+							sweets.
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 mt30 wow fadeIn" data-wow-delay="0.8s">
+					<div class="service-card-app hoshd">
+						<h4>Customized Bulk Solutions </h4>
+						<ul class="-service-list mt10">
+						</ul>
+						<div class="tec-icon mt30">
+							<ul class="servc-icon-sldr">
+								<img src="./img/traders/img3.jpg" alt="">
+
+							</ul>
+						</div>
+						<p class="mt20 text-justify"> Tailored wholesale supply to meet your specific business needs.
+						</p>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+		</div>
+	</section>
+
+
+	<section class="testinomial-section-app bg-none pad-tb">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-5">
+					<div class="common-heading text-l">
+						<span>What our Students say about us.</span>
+						<h2>Over 200+ Satisfied Students and Growing</h2>
+					</div>
+				</div>
+				<div class="col-lg-7">
+					<div class="pl50">
+						<div class="shape shape-a1"><img src="images/shape/shape-3.svg" alt="shape"></div>
+						<div class="testimonial-card-a tcd owl-carousel">
+							<div class="testimonial-card">
+								<div class="tt-text">
+									<p>"SRI SAI KRISHNA TRADERS has been our go-to supplier for fresh vegetables and
+										groceries. Their quality and consistency are unmatched!".</p>
+								</div>
+								<div class="client-thumbs mt30">
+									<div class="media v-center upset">
+										<div class="user-image bdr-radius"><img
+												src="images/user-thumb/pojo-testimonial.png" alt="girl"
+												class="img-fluid rounded-circle" /></div>
+										<div class="media-body user-info v-center">
+											<h5> – Ramesh Kumar</h5>
+
+											<i class="fas fa-quote-right posiqut"></i>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="testimonial-card">
+								<div class="tt-text">
+									<p>"Excellent wholesale services! The spices and traditional sweets are always fresh
+										and authentic. Highly recommended for bulk buyers." .
+									</p>
+								</div>
+								<div class="client-thumbs mt30">
+									<div class="media v-center upset">
+										<div class="user-image bdr-radius"><img
+												src="images/user-thumb/pojo-testimonial.png" alt="girl"
+												class="img-fluid rounded-circle" /></div>
+										<div class="media-body user-info v-center">
+											<h5>– Sharma P</h5>
+
+											<i class="fas fa-quote-right posiqut"></i>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="testimonial-card">
+								<div class="tt-text">
+									<p>"Timely delivery, great packaging, and premium-quality products. We trust them
+										for all our seafood and grocery needs." .</p>
+								</div>
+								<div class="client-thumbs mt30">
+									<div class="media v-center upset">
+										<div class="user-image bdr-radius"><img
+												src="images/user-thumb/pojo-testimonial.png" alt="girl"
+												class="img-fluid rounded-circle" /></div>
+										<div class="media-body user-info v-center">
+											<h5>– Vikram S</h5>
+
+											<i class="fas fa-quote-right posiqut"></i>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div class="footer-row2">
+			<div class="container">
+				<div class="row justify-content-between">
+					<div class="col-lg-9 col-sm-6  ftr-brand-pp">
+						<!-- <a class="navbar-brand  f-dark-logo" href="#"> <img src="images/logo/icms.png" alt="Logo" /></a>
+						<a class="navbar-brand  f-white-logo" href="#"> <img src="images/logo/icms.png"
+								alt="Logo" /></a> -->
+						<h3>SRI SAI KRISHNA TRADERS</h3>
+						<p>SRI SAI KRISHNA TRADERS is committed to delivering the best quality food products with a focus on freshness, taste, and authenticity. Whether you need fresh vegetables, exotic spices, traditional sweets, or premium seafood, we have you covered. Connect with us for bulk orders, retail purchases, and customized food solutions.</p>
+					</div>
+					<div class="col-lg-3 col-sm-6">
+						<h5>Contact Us</h5>
+						<ul class="footer-address-list ftr-details">
+							<li>
+								<span><i class="fas fa-envelope"></i></span>
+								<p>Email <span> <a
+											href="mailto: ksundarigopi0273@gmail.com" target="_blank"> ksundarigopi0273@gmail.com</a></span>
+								</p>
+							</li>
+							<li>
+								<span><i class="fas fa-phone-alt"></i></span>
+								<p>Phone <span class="flex-column">
+									<a href="tel:+917845931174" target="_blank">+91 78459 31174</a>
+									<a href="tel:+919597782357" target="_blank">+91 95977 82357</a></span>
+								</p>
+							</li>
+							<div class="d-flex">
+								<li>
+									<span><i class="fas fa-map-marker-alt"></i></span>
+									<p>Corporate Office <span>
+										SRI SAI KRISHNA TRADERS,<br>
+											No. 5/1245, Pillaiyar Kovil Thottam,<br>
+											Lakshmi Nagar,
+											Bhavani,<br>
+											Erode - 638301,
+											Tamil Nadu.
+										</span></p>
+								</li>
+							</div>
+						</ul>
+					</div>
+
+					<p class=" border-bottom pb-2 text-justify pt-3  border-2">© 2024 All Rights Reserved By <b
+							class="text-primary"><a href="https://pojotechnology.com/">Pojo Technology</a></b></p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- <div class="footer-row3">
+		<div class="copyright">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="footer-social-media-icons">
+							<a href="https://www.facebook.com/careercounsellorkerala?mibextid=ZbWKwL
+					" target="blank"><i class="fab fa-facebook"></i></a>
+				
+					<a href=" https://instagram.com/mycareercounsellor?igshid=OGQ5ZDc2ODk2ZA==" target="blank"><i
+							class="fab fa-instagram"></i></a>
+					<a href="https://youtube.com/@mycareercounsellor?si=deOSl3bAqhPsV4ph" target="blank"><i
+							class="fab fa-youtube"></i></a>
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> -->
+
+	<a href="https://wa.me/+919597782357" class="fab-whatsapp" target="_blank">
+		<img src="images/icons/whatsapp.svg" alt="WhatsApp icon" />
+	</a>
+
+	<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+	<script src="js/vendor/modernizr-3.5.0.min.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/plugin.min.js"></script>
+	<script src="js/preloader.js"></script>
+	<script src="js/dark-mode.js"></script>
+	<script src="js/swiper.min.js"></script>
+
+	<script src="js/main.js"></script>
+
+
+</body>
+
+</html>
